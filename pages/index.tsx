@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div className='antialiased bg-gray-50 '>
+    <div className='antialiased'>
       <Head>
         <title>Ripplematch Info</title>
         <meta name="description" content="Ripplematch Info" />
