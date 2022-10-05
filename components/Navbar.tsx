@@ -5,10 +5,12 @@ const Navbar = () => {
     return (
         <nav className="navbar mx-auto max-w-7xl px-4 sm:px-6 relative z-50 justify-between py-8">
             <div className="navbar-start">
-                <a className="btn btn-ghost normal-case text-2xl lg:btn-wide">
-                    <span>RIPPLE</span>
-                    <span className="text-primary">MATCH</span>
-                </a>
+                <Link href="/">
+                    <div className="btn btn-ghost normal-case lg:text-2xl text-xl lg:btn-wide">
+                        <span>RIPPLE</span>
+                        <span className="text-primary">MATCH</span>
+                    </div>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
@@ -19,7 +21,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn hover:btn-secondary lg:btn-wide">Get Started</a>
+                <a href='https://ripplematch.com/index?r=RjM6MT' target="_blank" rel="noopener noreferrer" className="btn btn-primary text-primary-content hover:btn-primary-focus lg:btn-wide">Get Started</a>
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
