@@ -44,7 +44,7 @@ const Intro = () => {
                         </p>
                     </div>
                     {/*Divide Between Top Intro and Middle Intro */}
-                    <div className="relative lg:pt-20 sm:mt-8 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
+                    <div className="relative lg:pt-20 sm:mt-5 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
                         <div className="relative mx-auto max-w-[500px]">
                             <div className="bg-white py-12">
                                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -68,7 +68,7 @@ const Intro = () => {
                         </div>
                     </div>
                     {/*Divide Between Middle Intro and End Intro */}
-                    <div className="relative mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">
+                    <div className="relative -mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">
                         <p className="text-center text-sm font-semibold text-gray-900 lg:text-left text-">Companies Featured</p>
                         <ul role="list" className="mx-auto mt-8 flex max-w-xl flex-wrap justify-center gap-x-10 gap-y-8 lg:mx-0 lg:justify-start">
                             <li className="flex"><Image alt="Ebay" src="/media/ebay-logo.svg" decoding="async" data-nimg="future" className="h-8 " loading="lazy"  width="82" height="32" /></li>
