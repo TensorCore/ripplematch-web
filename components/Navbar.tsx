@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="navbar mx-auto max-w-7xl px-4 sm:px-6 z-50 justify-between py-8">
             <div className="navbar-start">
                 <Link href="/">
-                    <div className="btn btn-ghost normal-case lg:text-2xl text-xl lg:btn-wide">
+                    <div className="btn btn-ghost normal-case lg:text-2xl text-xl md:btn-wide lg:btn-wide">
                         <span>RIPPLE</span>
                         <span className="text-primary">MATCH</span>
                     </div>
@@ -15,9 +15,9 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     <li><a href='#about'>About</a></li>
-                    <li><a>Process</a></li>
-                    <li><a>Message Help</a></li>
-                    <li><a>Resume Tips</a></li>
+                    <li><a href='#process'>Process</a></li>
+                    <li><a href='#help'>Message Help</a></li>
+                    <li><a href='#resume'>Resume Tips</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
@@ -28,9 +28,9 @@ const Navbar = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a href='#about'>About</a></li>
-                        <li><a>Process</a></li>
-                        <li><a>Message Help</a></li>
-                        <li><a>Resume Tips</a></li>
+                        <li><a href='#process'>Process</a></li>
+                        <li><a href='#help'>Message Help</a></li>
+                        <li><a href='#resume'>Resume Tips</a></li>
                     </ul>
                 </div>
             </div>
