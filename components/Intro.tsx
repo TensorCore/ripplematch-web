@@ -69,18 +69,17 @@ const Intro = () => {
                     </div>
                     {/*Divide Between Middle Intro and End Intro */}
                     <div className="relative -mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">
-                        <p className="text-center text-sm font-semibold text-gray-900 lg:text-left text-">Companies Featured</p>
+                        <p className="text-center text-sm font-semibold text-gray-900 lg:text-left mt-2">Featured Companies</p>
                         <ul role="list" className="mx-auto mt-8 flex max-w-xl flex-wrap justify-center gap-x-10 gap-y-8 lg:mx-0 lg:justify-start">
-                            <li className="flex"><Image alt="Ebay" src="/media/ebay-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="82" height="32" /></li>
-                            <li className="flex"><Image alt="Paloalto Networks" src="/media/paloalto-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="181" height="32" /></li>
-                            <li className="flex"><Image alt="SAP" src="/media/sap-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="35" /></li>
-                            <li className="flex xl:block"><Image alt="PNC" src="/media/PNClogo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="120" height="32" /></li>
-                            <li className="flex"><Image alt="General Mills" src="/media/general-mills-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="95" height="32" /></li>
-                            <li className="flex"><Image alt="Estée Lauder Companies" src="/media/estee_lauder-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="50" height="32" /></li>
-                            <li className="flex"><Image alt="Ernst Young" src="/media/ernst-young-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="40" /></li>
-                            <li className="flex xl:block"><Image alt="ABInbev" src="/media/ABInbev-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="132" height="32" /></li>
-                            <li className="flex"><Image alt="Educational Testing Service" src="/media/ets-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="32" /></li>
-
+                            <li className="flex filter grayscale"><Image alt="Ebay" src="/media/ebay-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="82" height="32" /></li>
+                            <li className="flex filter grayscale"><Image alt="Paloalto Networks" src="/media/paloalto-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="181" height="32" /></li>
+                            <li className="flex filter grayscale"><Image alt="SAP" src="/media/sap-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="35" /></li>
+                            <li className="flex filter grayscale xl:block"><Image alt="PNC" src="/media/PNClogo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="120" height="32" /></li>
+                            <li className="flex filter grayscale"><Image alt="General Mills" src="/media/general-mills-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="95" height="32" /></li>
+                            <li className="flex filter grayscale"><Image alt="Estée Lauder Companies" src="/media/estee_lauder-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="50" height="32" /></li>
+                            <li className="flex filter grayscale"><Image alt="Ernst Young" src="/media/ernst-young-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="40" /></li>
+                            <li className="flex filter grayscale xl:block"><Image alt="ABInbev" src="/media/ABInbev-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="132" height="32" /></li>
+                            <li className="flex filter grayscale"><Image alt="Educational Testing Service" src="/media/ets-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="32" /></li>
                         </ul>
                     </div>
                 </div>
