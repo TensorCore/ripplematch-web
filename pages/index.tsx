@@ -5,6 +5,7 @@ import Intro from '../components/Intro'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
 import MessageHelp from '../components/MessageHelp'
+import ResumeHelp from '../components/ResumeHelp'
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
       <main>
         <Intro />
         <MessageHelp />
+        <ResumeHelp />
         <Faq />
       </main>
       
