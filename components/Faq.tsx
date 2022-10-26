@@ -56,7 +56,16 @@ const Faq = () => {
                         }
                     </div>
                 </section>
+                {/* Center redirect button */}
+                <div className="flex justify-center mt-10">
+                <a href='https://ripplematch.com/index?r=RjM6MT' target="_blank" rel="noopener noreferrer">
+                        <span className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gray-800 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                            Get Started
+                        </span>
+                    </a>
+                </div>
             </div>
+
         </section>
     )
 }
