@@ -2,7 +2,9 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Intro from '../components/Intro'
-import About from '../components/About'
+import Faq from '../components/Faq'
+import Footer from '../components/Footer'
+import MessageHelp from '../components/MessageHelp'
 
 const Home: NextPage = () => {
   return (
@@ -15,13 +17,18 @@ const Home: NextPage = () => {
         <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png" />
         <link rel="icon" type="image/png" sizes="192x192" href="/icons/favicon-192x192.png" />
       </Head>
+
       <header>
         <Navbar />
       </header>
-      <main className=''>
+
+      <main>
         <Intro />
-        <About />
+        <MessageHelp />
+        <Faq />
       </main>
+      
+      <Footer />
     </div>
   )
 }

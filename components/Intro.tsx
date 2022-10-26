@@ -44,9 +44,9 @@ const Intro = () => {
                         </p>
                     </div>
                     {/*Divide Between Top Intro and Middle Intro */}
-                    <div className="relative lg:pt-20 sm:mt-0 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
+                    <div className="relative lg:pt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
                         <div className="relative mx-auto max-w-[500px]">
-                            <div className="py-9">
+                            <div className="py-4 lg:py-10">
                                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                                     <div className="mt-10">
                                         <dl className="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0">
@@ -68,18 +68,20 @@ const Intro = () => {
                         </div>
                     </div>
                     {/*Divide Between Middle Intro and End Intro */}
-                    <div className="relative -mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">
+                    <div className="relative lg:col-span-7 lg:mt-0 xl:col-span-6">
                         <p className="text-center text-sm font-semibold text-gray-900 lg:text-left mt-2">Featured Companies</p>
                         <ul role="list" className="mx-auto mt-8 flex max-w-xl flex-wrap justify-center gap-x-10 gap-y-8 lg:mx-0 lg:justify-start">
-                            <li className="flex filter grayscale"><Image alt="Ebay" src="/media/ebay-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="82" height="32" /></li>
-                            <li className="flex filter grayscale"><Image alt="Paloalto Networks" src="/media/paloalto-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="181" height="32" /></li>
-                            <li className="flex filter grayscale"><Image alt="SAP" src="/media/sap-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="35" /></li>
-                            <li className="flex filter grayscale xl:block"><Image alt="PNC" src="/media/PNClogo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="120" height="32" /></li>
-                            <li className="flex filter grayscale"><Image alt="General Mills" src="/media/general-mills-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="95" height="32" /></li>
-                            <li className="flex filter grayscale"><Image alt="Estée Lauder Companies" src="/media/estee_lauder-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="50" height="32" /></li>
-                            <li className="flex filter grayscale"><Image alt="Ernst Young" src="/media/ernst-young-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="40" /></li>
-                            <li className="flex filter grayscale xl:block"><Image alt="ABInbev" src="/media/ABInbev-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="132" height="32" /></li>
-                            <li className="flex filter grayscale"><Image alt="Educational Testing Service" src="/media/ets-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="32" /></li>
+                            <li className="flex basis-1/4 filter grayscale"><Image alt="Ebay" src="/media/ebay-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="82" height="32" /></li>
+                            <li className="flex basis-1/4 filter grayscale"><Image alt="Paloalto Networks" src="/media/paloalto-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="181" height="32" /></li>
+                            <li className="flex basis-1/4 filter grayscale"><Image alt="SAP" src="/media/sap-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="35" /></li>
+                            <li className="flex basis-1/4 filter grayscale xl:block"><Image alt="PNC" src="/media/PNClogo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="120" height="32" /></li>
+                            <li className="flex basis-1/4 filter grayscale"><Image alt="General Mills" src="/media/general-mills-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="95" height="33" /></li>
+                            <li className="flex basis-1/4 filter grayscale"><Image alt="AT&T" src="/media/att-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="90" height="32" /></li>
+                            <li className="flex basis-1/4 filter grayscale"><Image alt="Ernst Young" src="/media/ernst-young-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="40" /></li>
+                            <li className="flex basis-1/4 filter grayscale xl:block"><Image alt="ABInbev" src="/media/ABInbev-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="132" height="32" /></li>
+                            <li className="flex basis-1/4 filter grayscale"><Image alt="Educational Testing Service" src="/media/ets-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="32" /></li>
+                            <li className="flex basis-1/3 filter grayscale justify-center"><Image alt="VISA" src="/media/visa-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="100" height="32" /></li>
+                            <li className="flex basis-1/3 filter grayscale justify-center"><Image alt="ETS" src="/media/estee_lauder-logo.svg" decoding="async" data-nimg="future" className="h-8" loading="lazy"  width="120" height="40" /></li>
                         </ul>
                     </div>
                 </div>
