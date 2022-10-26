@@ -16,60 +16,56 @@ const MessageHelp = () => {
             className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
           >
             <li className="rounded-2xl border border-gray-200 p-8">
-              <h3 className="mt-6 font-semibold text-gray-900">
-                Invest any amount
+              <h3 className="mt-6 text-xl font-semibold text-gray-200">
+                Be Clear and Focused
               </h3>
-              <p className="mt-2 text-gray-700">
-                Whether it’s $1 or $1,000,000, we can put your money to work for
-                you.
+              <p className="mt-2 text-gray-300">
+              Include what is it about this role and company that stood out to you and talk about the company culture and how it fits you
               </p>
             </li>
             <li className="rounded-2xl border border-gray-200 p-8">
-              <h3 className="mt-6 font-semibold text-gray-900">
-                Build a balanced portfolio
+              <h3 className="mt-6 text-xl font-semibold text-gray-200">
+                Build a Bridge
               </h3>
-              <p className="mt-2 text-gray-700">
-                Invest in different industries to find the most opportunities to
-                win huge.
+              <p className="mt-2 text-gray-300">
+                Build a bridge between your skills and the job description, show how you fit in the role and how you can help the company
               </p>
             </li>
             <li className="rounded-2xl border border-gray-200 p-8">
-              <h3 className="mt-6 font-semibold text-gray-900">
-                Trade in real-time
+              <h3 className="mt-6 text-xl font-semibold text-gray-200">
+                Research
               </h3>
-              <p className="mt-2 text-gray-700">
-                Get insider tips on big stock moves and act on them within
-                seconds.
+              <p className="mt-2 text-gray-300">
+                Companies want to know that you are interested in the role, and the company, show that you have done your research
               </p>
             </li>
             <li className="rounded-2xl border border-gray-200 p-8">
-              <h3 className="mt-6 font-semibold text-gray-900">
-                Profit from your network
+              <h3 className="mt-2 text-xl font-semibold text-gray-200">
+                Casual Example
               </h3>
-              <p className="mt-2 text-gray-700">
-                Invite new insiders to get tips faster and beat even other
-                Pocket users.
+              <p className="mt-2 text-gray-300 text-base">
+                I am interested in this role because of _____ and my experience in _____. I have looked into _____company_____ and I think I would be a good fit for the company culture. I am looking forward to hearing from you.
               </p>
             </li>
-            <li className="rounded-2xl border border-gray-200 p-8">
-              <h3 className="mt-6 font-semibold text-gray-900">
-                Encrypted and anonymized
+            <li className="rounded-2xl text-xl border border-gray-200 p-8">
+              <h3 className="mt-2 font-semibold text-gray-200">
+                Real Example
               </h3>
-              <p className="mt-2 text-gray-700">
-                Cutting-edge security technology that even the NSA doesn’t know
-                about keeps you hidden.
+              <p className="mt-2 text-gray-300 text-base">
+              I like what eBay does as a company, and I believe with my academic and project experience, I will be a good fit for this role. This role seems like a great way to apply myself in a company to bring value, especially with starting projects that have impact.
               </p>
+              <p className="text-sm text-amber-200 pt-2">(Real Example, got first-round interview to Ebay)</p>
             </li>
             <li className="rounded-2xl border border-gray-200 p-8">
-              <h3 className="mt-6 font-semibold text-gray-900">
-                Portfolio tracking
+              <h3 className="mt-2 text-xl font-semibold text-gray-200">
+                Formal Example
               </h3>
-              <p className="mt-2 text-gray-700">
-                Watch your investments grow exponentially, leaving other
-                investors in the dust. lore
+              <p className="mt-2 text-gray-300 text-base">
+              My name is NameHere. I&apos;m a student at UCLA, I primarily work with databases and networking. I noticed this position is similar to my work, and academic experience. The company culuture appeals to me and I believe I will be a good fit for this role.
               </p>
             </li>
           </ul>
+          <h1 className="text-white flex justify-center pt-10 text-xl hover:text-primary hover:cursor-pointer"><a href='https://ripplematch.com/index?r=RjM6MT' target="_blank" rel="noopener noreferrer">Feel Ready to Apply?</a></h1>
         </div>
       </div>
     </section>

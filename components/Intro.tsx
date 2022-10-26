@@ -37,7 +37,7 @@ const Intro = () => {
                         <h1 className="text-4xl font-extrabold text-gray-900">
                             <span className="bloc tracking-tight">Looking for a job?</span>
                             <br></br>
-                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-success to-primary">We&apos;re here to help</span>
+                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-primary">We&apos;re here to help</span>
                         </h1>
                         <p className="mt-4 text-xl text-gray-500">
                             Tell us who you are and what you’re looking for – we’ll find opportunities you’ll love. Stop searching job boards and start getting interviews.
@@ -53,7 +53,7 @@ const Intro = () => {
                                             {features.map((feature) => (
                                                 <div key={feature.name} className="relative">
                                                     <dt>
-                                                        <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-primary text-primary-content">
+                                                        <div className="absolute flex h-12 w-12 items-center justify-center rounded-md  text-primary-content bg-black">
                                                             <feature.icon className="h-6 w-6" aria-hidden="true" />
                                                         </div>
                                                         <p className="ml-16 text-lg text font-bold leading-6 text-black">{feature.name}</p>
