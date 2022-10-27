@@ -15,7 +15,7 @@ const ResumeHelp = () => {
                     <div className="carousel-item">
                         <ResumeCard 
                         title="Software Resume"
-                        img="/Image/software.jpg"
+                        img="/Image/software.webp"
                         desc="Software Engineer Resume Example"
                         file="/Resumes/software_resume.docx"
                         />
@@ -31,7 +31,7 @@ const ResumeHelp = () => {
                     <div className="carousel-item">
                         <ResumeCard 
                         title="Engineer Resume"
-                        img="/Image/mechanical.jpg"
+                        img="/Image/mechanical.webp"
                         desc="Civil Engineer Resume Example"
                         file="/Resumes/engineer_resume.docx"
                         />

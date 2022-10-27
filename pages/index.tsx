@@ -12,7 +12,7 @@ const Home: NextPage = () => {
     <div className='antialiased'>
       <Head>
         <title>Ripplematch Info</title>
-        <meta name="description" content="Ripplematch Info" />
+        <meta name="description" content="Ripplematch Info" lang='en' />
         <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png" />

@@ -9,7 +9,7 @@ export const ResumeCard = (props: any) => {
                 <p>{props.desc}</p>
                 <div className="card-actions justify-end">
                     <a href={props.file} download>
-                        <button className="btn btn-primary">Download</button>
+                        <button className="btn hover:bg-slate-700">Download</button>
                     </a>
                 </div>
             </div>
