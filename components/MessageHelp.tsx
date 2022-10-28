@@ -57,7 +57,7 @@ const MessageHelp = () => {
                 Real Example
               </h3>
               <p className="mt-2 text-gray-300 text-base">
-                I like what eBay does as a company, and I believe with my academic and project experience, I will be a good fit for this role. This role seems like a great way to apply myself in a company to bring value, especially with starting projects that have impact.
+                I like what eBay does as a company, and I believe with my academic and project experience, I will be a great fit for this role. This position is a great opportunity to apply myself in a company to bring value, especially with starting projects that have impact.
               </p>
               <p className="text-sm text-amber-200 pt-2">(Real Example, got first-round interview to Ebay)</p>
             </li>
@@ -66,7 +66,7 @@ const MessageHelp = () => {
                 Formal Example
               </h3>
               <p className="mt-2 text-gray-300 text-base">
-                My name is NameHere. I&apos;m a student at UCLA, I primarily work with databases and networking. I noticed this position is similar to my work, and academic experience. The company culuture appeals to me and I believe I will be a good fit for this role.
+                My name is _____. I&apos;m a student at _____, I primarily work with _____ and _____. I noticed this position is similar to my work, and academic experience. The company culuture appeals to me and I believe I will be a good fit for this role.
               </p>
             </li>
           </ul>
